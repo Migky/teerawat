@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // You can add validation code here to ensure the data is in the correct format.
 
     // Connect to the database
-    $servername = "localhost";
+    $servername = "mysql";
     $username = "username";
     $password = "password";
     $dbname = "contacts";

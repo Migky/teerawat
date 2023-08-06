@@ -13,7 +13,7 @@
     <?php
     // Connect to the database (if not already connected)
     if (!isset($conn)) {
-        $servername = "localhost";
+        $servername = "mysql";
         $username = "username";
         $password = "password";
         $dbname = "contacts";
